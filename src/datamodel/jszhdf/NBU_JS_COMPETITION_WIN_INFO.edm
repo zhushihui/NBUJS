@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:model="http://www.wisedu.com/emap/model/model" dataSource="DB_EMAP_BIZ_BASE">
+	<dataModel name="NBU_JS_COMPETITION_WIN_INFO" queryOrder=""
+		type="table">
+		<item caption="主键" colName="CWSID" groupName="" length="32" name="CWSID"
+			pK="true" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.hidden" value="true" />
+		</item>
+		<item caption="学生学号" colName="XSID" groupName="" length="32"
+			name="XSID" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.checkType" value="custom[number]" />
+			<attribute name="web.form.hidden" value="true" />
+		</item>
+		<item caption="学生姓名" colName="XSXM" groupName="" length="20"
+			name="XSXM" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.form.hidden" value="true" />
+		</item>
+		<item caption="专业" colName="ZYMC" groupName="" length="100" name="ZYMC"
+			type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.search.xtype" value="multi-select2" />
+			<attribute name="dic" value="79f07253-c978-4f17-ac97-1e608bae8249" />
+			<attribute name="web.form.hidden" value="true" />
+		</item>
+		<item caption="学院" colName="XYMC" groupName="" length="50" name="XYMC"
+			type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.form.hidden" value="true" />
+		</item>
+		<item caption="竞赛名称" colName="JSMC" groupName="" length="100"
+			name="JSMC" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.form.required" value="true" />
+		</item>
+		<item caption="竞赛类别" colName="JSLB" groupName="" length="10"
+			name="JSLB" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="useDicType" value="toDisplay" />
+			<attribute name="web.xtype" value="select" />
+			<attribute name="web.search.xtype" value="multi-select2" />
+			<attribute name="builder" value="m_value_equal" />
+			<attribute name="dic" value="6ea6f28e-0dc6-457a-86bb-e1bf90bb17f2" />
+			<attribute name="web.form.required" value="true" />
+		</item>
+		<item caption="竞赛级别" colName="JSJB" groupName="" length="10"
+			name="JSJB" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.xtype" value="select" />
+			<attribute name="web.form.required" value="true" />
+			<attribute name="useDicType" value="toDisplay" />
+			<attribute name="web.search.xtype" value="multi-select2" />
+			<attribute name="builder" value="m_value_equal" />
+			<attribute name="dic" value="c72498db-3040-4ac6-9659-224b18c008d1" />
+		</item>
+		<item caption="竞赛时间" colName="JS_DATE" groupName="" length="20"
+			name="JS_DATE" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.form.required" value="true" />
+			<attribute name="web.search.xtype" value="date-range" />
+			<attribute name="web.xtype" value="date-ym" />
+		</item>
+		<item caption="竞赛奖项" colName="JSJX" groupName="" length="20"
+			name="JSJX" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="useDicType" value="toDisplay" />
+			<attribute name="web.xtype" value="select" />
+			<attribute name="web.search.xtype" value="multi-select2" />
+			<attribute name="builder" value="m_value_equal" />
+			<attribute name="dic" value="dc2bf0e1-e341-49ee-8540-c8f366e38adb" />
+			<attribute name="web.form.required" value="true" />
+		</item>
+		<item caption="团队第一人" colName="ISLEADER" groupName="" length="10"
+			name="ISLEADER" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.hidden" value="true" />
+		</item>
+		<item caption="获奖团队" colName="STULIST" groupName="" length="100"
+			name="STULIST" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.form.required" value="true" />
+			<attribute name="web.xtype" value="multi-select2" />
+			<attribute name="useDicType" value="toDisplay" />
+			<attribute name="web.search.xtype" value="multi-select2" />
+			<attribute name="builder" value="m_value_equal" />
+			<attribute name="dic" value="0eacc601-8ae3-47fd-9f28-838bbda4da6f" />
+		</item>
+		<item caption="指导老师名称" colName="ZDLSMC" groupName="" length="20"
+			name="ZDLSMC" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.form.required" value="true" />
+		</item>
+		<item caption="获奖得分" colName="SCORE" groupName="" length="" name="SCORE"
+			type="double">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.form.hidden" value="true" />
+		</item>
+		<item caption="团队组号(nbu_js_competition_result主键)" colName="RID"
+			groupName="" length="32" name="RID" type="String">
+			<attribute name="enabled" value="true" />
+			<attribute name="web.hidden" value="true" />
+		</item>
+		<rowFactors />
+	</dataModel>
+</model:Model>

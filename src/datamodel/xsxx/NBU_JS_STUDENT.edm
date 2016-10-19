@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:model="http://www.wisedu.com/emap/model/model" dataSource="DB_EMAP_BIZ_BASE">
+	<dataModel name="NBU_JS_STUDENT" queryOrder="" type="table">
+		<item caption="主键" colName="SID" groupName="" length="32" name="SID"
+			pK="true" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="姓名" colName="STU_NAME" groupName="" length="20"
+			name="STU_NAME" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="性别" colName="SEX" groupName="" length="5" name="SEX"
+			type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="出生日期" colName="BIRTHDAY_DATE" groupName="" length="7"
+			name="BIRTHDAY_DATE" type="Datetime">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学号" colName="IDENTIFY_CODE" groupName="" length="50"
+			name="IDENTIFY_CODE" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学制" colName="STU_LENGTH" groupName="" length=""
+			name="STU_LENGTH" type="double">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="入学时间" colName="START_DATE" groupName="" length="7"
+			name="START_DATE" type="Datetime">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="专业ID" colName="M_ID" groupName="" length="50"
+			name="M_ID" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="班号" colName="CLASS" groupName="" length="10" name="CLASS"
+			type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学位" colName="DEGREE" groupName="" length="20"
+			name="DEGREE" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="专业名称" colName="MAJOR_NAME" groupName="" length="100"
+			name="MAJOR_NAME" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学生状态" colName="STU_STATUS" groupName="" length="10"
+			name="STU_STATUS" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学籍状态" colName="SCHOOL_ROLL_STATUS" groupName=""
+			length="10" name="SCHOOL_ROLL_STATUS" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="当前所在级" colName="GRADE" groupName="" length="10"
+			name="GRADE" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="毕业" colName="DIPLOMA_STATUS" groupName="" length="10"
+			name="DIPLOMA_STATUS" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="毕业证书编号" colName="DIPLOMA_NO" groupName="" length="100"
+			name="DIPLOMA_NO" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="毕业日期" colName="DIPLOMA_DATE" groupName="" length="7"
+			name="DIPLOMA_DATE" type="Datetime">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学位证书编号" colName="DEGREE_NO" groupName="" length="50"
+			name="DEGREE_NO" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="辅修专业" colName="MINOR_NAME" groupName="" length="50"
+			name="MINOR_NAME" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="辅修方式" colName="MINOR_WAY" groupName="" length="20"
+			name="MINOR_WAY" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="辅修学位" colName="MINOR_DEGREE" groupName="" length="10"
+			name="MINOR_DEGREE" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="双专业证书编号" colName="DOUBLE_MAJOR_NO" groupName=""
+			length="20" name="DOUBLE_MAJOR_NO" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="辅修学位证书编号" colName="MINOR_NO" groupName="" length="50"
+			name="MINOR_NO" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="" colName="ACADEMY" groupName="" length="50" name="ACADEMY"
+			type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="" colName="MINOR_ACADEMY" groupName="" length="50"
+			name="MINOR_ACADEMY" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<rowFactors />
+	</dataModel>
+</model:Model>

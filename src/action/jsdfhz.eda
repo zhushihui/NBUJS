@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmlns:model="http://www.wisedu.com/emap/model/model">
+  <actionModel caption="竞赛得分汇总" conditionIndex="" displayRef="model:DB_EMAP_BIZ_BASE/NBU_JS_COMPETITION_WIN_INFO" displayRefInclude="XSID,XSXM,ZYMC,XYMC,SCORE" displayRefPath="src/datamodel/jszhdf/NBU_JS_COMPETITION_WIN_INFO.edm" displayRefPrj="nbujs" name="jsdfhz" paramFixRef="model:DB_EMAP_BIZ_BASE/NBU_JS_COMPETITION_WIN_INFO" paramFixRefInclude="XSID,XSXM,ZYMC,XYMC,SCORE" paramFixRefPath="src/datamodel/jszhdf/NBU_JS_COMPETITION_WIN_INFO.edm" paramFixRefPrj="nbujs" paramRef="" paramRefInclude="CWSID,XSID,XSXM,ZYMC,XYMC,JSMC,JSLB,JSJB,JS_DATE,JSJX,ISLEADER,STULIST,ZDLSMC,SCORE,RID" paramRefPath="" paramRefPrj="" saveLog="true" totalCountType="AUTO" type="QUERY">
+    <sql>select xsid,xsxm,zymc,xymc,sum(score) &#xD;
+from nbu_js_competition_win_info&#xD;
+group by xsid,xsxm,zymc,xymc</sql>
+  </actionModel>
+</model:Model>

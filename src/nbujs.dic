@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary:DictionaryTables xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dictionary="http://com.wisedu.emap.dictionary/1.0">
+  <dictionaryTable dataModelPath="src/datamodel/jslb/NBU_JS_COMPETITION_TYPE.edm" dataModelProject="nbujs" dicType="BASIC" id="6ea6f28e-0dc6-457a-86bb-e1bf90bb17f2" keyColumn="ID" name="竞赛类别" orderColumn="ID" ref="NBU_JS_COMPETITION_TYPE" refAction="model:DB_EMAP_BIZ_BASE/NBU_JS_COMPETITION_TYPE.QUERY" valueColumn="TYPE"/>
+  <dictionaryTable dataModelPath="src/datamodel/jsjb/NBU_JS_COMPETITION_AREA.edm" dataModelProject="nbujs" dicType="BASIC" id="c72498db-3040-4ac6-9659-224b18c008d1" keyColumn="ID" name="竞赛级别" ref="NBU_JS_COMPETITION_AREA" refAction="model:DB_EMAP_BIZ_BASE/NBU_JS_COMPETITION_AREA.QUERY" valueColumn="AREA"/>
+  <dictionaryTable dataModelPath="src/datamodel/jsjx/NBU_JS_COMPETITION_LEVEL.edm" dataModelProject="nbujs" dicType="BASIC" id="dc2bf0e1-e341-49ee-8540-c8f366e38adb" keyColumn="ID" name="竞赛奖项" orderColumn="ID" ref="NBU_JS_COMPETITION_LEVEL" refAction="model:DB_EMAP_BIZ_BASE/NBU_JS_COMPETITION_LEVEL.QUERY" valueColumn="LEVELS"/>
+  <dictionaryTable dataModelPath="src/datamodel/xsxx/NBU_JS_STUDENT.edm" dataModelProject="nbujs" dicType="BASIC" id="0eacc601-8ae3-47fd-9f28-838bbda4da6f" keyColumn="SID" name="学生" orderColumn="SID" ref="NBU_JS_STUDENT" refAction="model:DB_EMAP_BIZ_BASE/NBU_JS_STUDENT.QUERY" valueColumn="IDENTIFY_CODE"/>
+</dictionary:DictionaryTables>

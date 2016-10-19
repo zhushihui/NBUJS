@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:model="http://www.wisedu.com/emap/model/model" dataSource="DB_EMAP_BIZ_BASE">
+	<dataModel name="NBU_JS_MAJOR" queryOrder="" type="table">
+		<item caption="主键" colName="M_ID" groupName="" length="32" name="M_ID"
+			pK="true" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="专业名称" colName="MAJOR_NAME" groupName="" length="100"
+			name="MAJOR_NAME" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学院名称" colName="ACADEMY" groupName="" length="50"
+			name="ACADEMY" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学院ID" colName="COMPANY_ID" groupName="" length="10"
+			name="COMPANY_ID" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="专业编号" colName="MAJOR_CODE" groupName="" length="20"
+			name="MAJOR_CODE" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="状态" colName="STATUS" groupName="" length="10"
+			name="STATUS" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<rowFactors />
+	</dataModel>
+</model:Model>

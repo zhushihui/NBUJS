@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:model="http://www.wisedu.com/emap/model/model" dataSource="DB_EMAP_BIZ_BASE">
+	<dataModel name="NBU_JS_PRIZE_STU" queryOrder="" type="table">
+		<item caption="" colName="ID" groupName="" length="32" name="ID"
+			pK="true" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="竞赛结果ID" colName="RID" groupName="" length="32"
+			name="RID" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="学生名称" colName="STU_NAME" groupName="" length="100"
+			name="STU_NAME" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="团队第一人" colName="IS_LEADER" groupName="" length="10"
+			name="IS_LEADER" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="得分" colName="SCORE" groupName="" length="" name="SCORE"
+			type="double">
+			<attribute name="enabled" value="true" />
+		</item>
+		<rowFactors />
+	</dataModel>
+</model:Model>

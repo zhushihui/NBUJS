@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:model="http://www.wisedu.com/emap/model/model" dataSource="DB_EMAP_BIZ_BASE">
+	<dataModel name="NBU_JS_COMPETITION_TYPE" queryOrder="" type="table">
+		<item caption="" colName="ID" groupName="" length="" name="ID"
+			pK="true" type="double">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="" colName="TYPE" groupName="" length="10" name="TYPE"
+			type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<rowFactors />
+	</dataModel>
+</model:Model>

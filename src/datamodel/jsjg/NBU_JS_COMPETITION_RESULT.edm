@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:model="http://www.wisedu.com/emap/model/model" dataSource="DB_EMAP_BIZ_BASE">
+	<dataModel name="NBU_JS_COMPETITION_RESULT" queryOrder=""
+		type="table">
+		<item caption="" colName="RID" groupName="" length="32" name="RID"
+			pK="true" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="竞赛名称" colName="PROJECT_NAME" groupName="" length="100"
+			name="PROJECT_NAME" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="竞赛信息ID" colName="PID" groupName="" length="32"
+			name="PID" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="获奖等级" colName="PRIZE_LEVEL" groupName="" length="50"
+			name="PRIZE_LEVEL" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="教师ID" colName="TID" groupName="" length="32" name="TID"
+			type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="竞赛日期" colName="PROJECT_DATE" groupName="" length="20"
+			name="PROJECT_DATE" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="教师名称" colName="T_NAME" groupName="" length="20"
+			name="T_NAME" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="团队人员" colName="STU_LIST" groupName="" length="100"
+			name="STU_LIST" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<rowFactors />
+	</dataModel>
+</model:Model>

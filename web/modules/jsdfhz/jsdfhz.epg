@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page:Pages xmlns:page="http://www.wisedu.com/emap/model/page">
+	<page name="jsdfhz" desc="竞赛得分汇总" permissionLevel="">
+		<actions>
+			<action name="jsdfhz" ref="action:jsdfhz" url="src/action/jsdfhz.eda"
+				multiple="true" prjRef="nbujs" canAccess="true" />
+		</actions>
+	</page>
+</page:Pages>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:model="http://www.wisedu.com/emap/model/model" dataSource="DB_EMAP_BIZ_BASE">
+	<dataModel name="NBU_JS_PROJECT" queryOrder="" type="table">
+		<item caption="主键" colName="PID" groupName="" length="32" name="PID"
+			pK="true" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="竞赛名称" colName="COMP_NAME" groupName="" length="100"
+			name="COMP_NAME" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="主办方" colName="HOST" groupName="" length="100"
+			name="HOST" type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="类别" colName="TYPE" groupName="" length="10" name="TYPE"
+			type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<item caption="地区" colName="AREA" groupName="" length="10" name="AREA"
+			type="String">
+			<attribute name="enabled" value="true" />
+		</item>
+		<rowFactors />
+	</dataModel>
+</model:Model>

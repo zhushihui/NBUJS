@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page:Pages xmlns:page="http://www.wisedu.com/emap/model/page">
+  <page name="grjsdfmx" desc="个人竞赛得分明细" permissionLevel="">
+    <actions>
+      <action name="NBU_JS_COMPETITION_WIN_INFO_QUERY" ref="model:NBU_JS_COMPETITION_WIN_INFO.QUERY" url="src/datamodel/jszhdf/NBU_JS_COMPETITION_WIN_INFO.edm" multiple="true" prjRef="nbujs" canAccess="true"/>
+      <action name="NBU_JS_COMPETITION_WIN_INFO_DELETE" ref="model:NBU_JS_COMPETITION_WIN_INFO.DELETE" url="src/datamodel/jszhdf/NBU_JS_COMPETITION_WIN_INFO.edm" multiple="false" prjRef="nbujs" canAccess="true"/>
+      <action name="NBU_JS_COMPETITION_WIN_INFO_SAVE" ref="model:NBU_JS_COMPETITION_WIN_INFO.SAVE" url="src/datamodel/jszhdf/NBU_JS_COMPETITION_WIN_INFO.edm" multiple="false" prjRef="nbujs" canAccess="true"/>
+    </actions>
+  </page>
+</page:Pages>

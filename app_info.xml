@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package_info>
+	<!-- 依赖EMAP底座版本 -->
+	<emap_version>1.7.63</emap_version>
+	<!-- 依赖信息 -->
+	<dependences>
+		<dependence>
+			<name />
+			<identity />
+			<version />
+		</dependence>
+	</dependences>
+	<!-- 应用信息 -->
+	<application>
+		<!-- 应用类型: web、mobile、web/mobile -->
+		<type>web</type>
+		<!-- 应用申请的application ID -->
+		<identity>1603456975836405</identity>
+		<!-- 应用缩写，由字母数字下划线组成，不超过40字节 -->
+		<name>nbujs</name>
+		<!-- 应用中文名称，不超过20汉字 -->
+		<cname>NBUJS</cname>
+		<!-- 应用制造商,不超过20汉字 -->
+		<vendor>金智教育</vendor>
+		<!-- 应用的分类标签，用于定义云端应用的作用域。 -->
+		<category>02</category>
+		<!-- 应用描述，不超过300汉字 -->
+		<description>desc</description>
+		<!-- 应用版本号: X.XX.XXX -->
+		<version>1.0.0</version>
+	</application>
+	<!-- API清单 -->
+	<apis>
+		<host>http://sample_host_url</host>
+		<api>
+			<category>11</category>
+			<serviceId>abcdefghijkl</serviceId>
+			<accessUrl>sample_access_url/service1</accessUrl>
+			<apiType>todo</apiType>
+		</api>
+	</apis>
+</package_info>
