@@ -17,7 +17,7 @@
 		},
 		save: function(formData){
 			//TODO 将formData提交到后台动作上
-//			return BH_UTILS.doAjax('../modules/grjsdfmx/T_PXXX_XSJBXX_SAVE.do', formData);
+			return BH_UTILS.doAjax('../modules/grjsdfmx/NBU_JS_COMPETITION_WIN_INFO_SAVE.do', formData);
 		},
 		del: function(params){
 			//TODO 添加删除动作
