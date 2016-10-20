@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmlns:model="http://www.wisedu.com/emap/model/model">
+  <actionModel caption="学生学号字典" displayRef="model:DB_EMAP_BIZ_BASE/NBU_JS_STUDENT" displayRefInclude="SID,STU_NAME" displayRefPath="src/datamodel/xsxx/NBU_JS_STUDENT.edm" displayRefPrj="nbujs" name="xsxhzd" paramRef="model:DB_EMAP_BIZ_BASE/NBU_JS_STUDENT" paramRefInclude="STU_NAME" paramRefPath="src/datamodel/xsxx/NBU_JS_STUDENT.edm" paramRefPrj="nbujs" saveLog="true" totalCountType="AUTO" type="QUERY">
+    <sql>select a.sid||'-'||a.major_name||'-'||a.academy as sid,a.stu_name ||'-'|| a.identify_code as stu_name&#xD;
+from nbu_js_student a&#xD;
+#sub[and $]</sql>
+  </actionModel>
+</model:Model>
